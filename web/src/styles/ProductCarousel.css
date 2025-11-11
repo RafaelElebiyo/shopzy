@@ -1,0 +1,28 @@
+.carousel-container {
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.view-more {
+  text-decoration: none;
+  color: orange;
+  font-size: 14px;
+}
+
+.carousel {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,50 @@
+.product-card-home {
+  position: relative;
+  width: 180px;
+  min-width: 180px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.product-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding-top: 8px;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.old-price {
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgb(255, 198, 143);
+  color: #c66e03;
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
