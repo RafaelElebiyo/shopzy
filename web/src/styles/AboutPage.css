@@ -1,0 +1,77 @@
+/* CONTENEDOR GENERAL */
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* TÍTULOS */
+.about-section h2,
+.about-values h2,
+.about-team h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #222;
+}
+
+/* QUIÉNES SOMOS */
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* VALORES */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.value-card {
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+}
+
+.value-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #111;
+}
+
+.value-card p {
+  margin-top: 8px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* EQUIPO */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.about-team {
+  margin-top: 60px;
+}

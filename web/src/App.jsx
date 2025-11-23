@@ -9,7 +9,7 @@ import {
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer"; 
-
+import "./styles/main.css";
 import HomePage from "./pages/HomePage";
 import SingleProductPage from "./pages/SingleProductPage";
 import ProfilePage from "./pages/ProfilePage";

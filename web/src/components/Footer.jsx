@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white py-4 mt-5 ">
       <div className="container text-center">
-        <p className="mb-1">&copy; {new Date().getFullYear()} Ecommerce</p>
+        <p className="mb-1">&copy; {new Date().getFullYear()} Shopzy</p>
         <p className="mb-0">
-          <a href="/about" className="text-warning text-decoration-none">
+          <a href="/about-us" className="text-warning text-decoration-none">
             About Us
           </a>{" "}
           |{" "}
